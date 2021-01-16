@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- Title -->
+    <title>CV</title>
+
+    <!-- CSS files-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--JS Files-->
+
+</head>
+
+<body>
+
+    <main class="container">
+        <!--Navbar-->
+        <nav class="topnav" id="myTopnav">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="cv.html">CV</a>
+            <a href="report.html">Site Report</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <!--CV-->
+        <section class="cv">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 cv-head">
+                            <h3>Gervacius Mbella Etoga
+                            </h3>
+                            <h4>Address: 17 sherpperton close, NN3 9NT<br> Mobile: 07858688057
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 cv_body">
+                            <h3>EDUCATION </h3>
+                            <p>2005 - 2006: SIRAH NURSERY SCHOOL CAMEROON </p>
+                            <p>2007 - 2011: MARTIN LUTHER KING PRIMARY ANDSECONDARY SCHOOL
+                            </p>
+                            <p>2012 - 2013: ST JOHN SECONDARY SCHOOL
+                            </p>
+                            <p>2014 - 2019: NEW HORIZON SECONDARY SCHOOL </p>
+                            <p>2020 - PRESENT: UNIVERSITY OF NORTHAMPTON
+                            </p>
+                        </div>
+                        <div class="col-md-4 cv_body">
+                            <h3>SKILLS
+                            </h3>
+                            <p>Good Knowlegde in HTML, CSS and Java script
+                            </p>
+                            <p>Very good at football and sprints
+
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 cv_body">
+                            <h3>HOBBIES AND INTEREST
+                            </h3>
+                            <p>I really enjoy playing football and playing video games, I all love coding and enjoy travelling,
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
+    <!--Navbar JS-->
+    <script>
+        function navbar() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

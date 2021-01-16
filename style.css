@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: "open sans", sans-serif;
+    background-color: #c4c4c4 !important;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 20px 0px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.topnav a {
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    color: #fff;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+header {
+    background: linear-gradient( #e9ecef69, #f8f9fa36), url(img/header-img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    float: left;
+    -webkit-box-shadow: 1px 2px 5px 0px #000000;
+    box-shadow: 1px 2px 5px 0px #000000;
+}
+
+.title {
+    padding: 30px;
+    width: 40%;
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+.title p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.title a {
+    color: #000;
+    background-color: #c4c4c4d1;
+    padding: 2px 14px;
+}
+
+.title a:nth-child(1) {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.contact {
+    padding: 5vw 0px;
+}
+
+.contact h2 {
+    font-weight: normal;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact h2 a {
+    font-weight: normal;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+.cv {
+    padding: 30px 0px;
+}
+
+.portfolio {
+    padding: 40px 0px;
+}
+
+.cv-head h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.cv-head h4 {
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.cv_body {
+    margin-top: 20px !important;
+}
+
+.cv_body h3 {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.cv_body p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+@media(max-width: 950px) {
+    header {
+        height: auto;
+    }
+    .title {
+        padding: 30px;
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 4vw;
+    }
+    .title p {
+        font-size: 3vw;
+        margin: 15px 0px;
+        line-height: 12px;
+    }
+}

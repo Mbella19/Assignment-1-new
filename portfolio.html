@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- Title -->
+    <title>Portfolio</title>
+
+    <!-- CSS files-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--JS Files-->
+
+</head>
+
+<body>
+
+    <main class="container">
+        <!--Navbar-->
+        <nav class="topnav" id="myTopnav">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="cv.html">CV</a>
+            <a href="report.html">Site Report</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <!--portfolio-->
+        <section class="portfolio">
+            <div class="row" style="justify-content: center;">
+                <div class="col-md-4" style="padding-bottom: 15px;">
+                    <img src="img/p1.jpg" style="width: 100%;" />
+                </div>
+                <div class="col-md-4" style="padding-bottom: 15px;">
+                    <img src="img/p1.jpg" style="width: 100%;" />
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+    <!--Navbar JS-->
+    <script>
+        function navbar() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

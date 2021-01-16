@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- Title -->
+    <title>Home</title>
+
+    <!-- CSS files-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--JS Files-->
+
+</head>
+
+<body>
+
+    <main class="container">
+        <!--Navbar-->
+        <nav class="topnav" id="myTopnav">
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="cv.html">CV</a>
+            <a href="report.html">Site Report</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <!--Header-->
+        <header>
+            <div class="title">
+                <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+                <p>Mauris risus ipsum, fermentum vitae purus sed, mollis dapibus est. Etiam non facilisis justo. Etiam viverra semper sem, sit amet.</p>
+                <div>
+                    <a>Instagram</a>
+                    <a>Facebook</a>
+                </div>
+            </div>
+        </header>
+
+    </main>
+
+
+
+
+
+
+
+    <!--Navbar JS-->
+    <script>
+        function navbar() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
