@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    background: linear-gradient( #e9ecef69, #f8f9fa36), url(img/header-img.jpg);
+    background: linear-gradient( #e9ecef69, #f8f9fa36), url(header-img.jpg);
     background-size: cover;
     width: 100%;
     height: 400px;
